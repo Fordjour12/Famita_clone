@@ -3,7 +3,7 @@ import ShopPage from "./Pages/ShopPage";
 import ElementPage from "./Pages/ElementPage";
 import Page from "./Pages/Page";
 import BlogPage from "./Pages/BlogPage";
-
+import { BiMoney, BiCreditCard, BiHeadphone, BiCar } from "react-icons/bi";
 export const navigationList = [
     {
         title: "Home",
@@ -41,4 +41,39 @@ export const navigationList = [
         navList: "nav__list",
         component: <BlogPage />,
     },
+];
+
+export const policy = [
+    {
+        image: <BiCar />,
+        title: "Free Delivery",
+        description: "Free delivery for items $99 and up",
+    },
+    {
+        image: <BiMoney />,
+        title: "30 Days Return",
+        description: "If goods have Problems ",
+    },
+    {
+        image: <BiCreditCard />,
+        title: "Secure Payment",
+        description: "100% Secure Payments",
+    },
+    {
+        image: <BiHeadphone />,
+        title: "24/7 Support",
+        description: "Dedicated Support",
+    },
+];
+
+export const shopLink = [
+    {
+        title: "New Arrivals",
+        url: "#",
+    },
+    {
+        title: "Feature Products",
+        url: "#",
+    },
+    { title: "Sale Item", url: "#" },
 ];
