@@ -1,6 +1,5 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-
 import { navigationList } from "./data";
 import Header from "./components/Layout/Header";
 
