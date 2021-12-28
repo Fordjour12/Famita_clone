@@ -1,6 +1,6 @@
 import Card from "../UI/Card";
 import { policy } from "../../data";
-// import imgs from "../../asset/pexels-tatiana-pavlova-9890056-removebg-preview.png";
+import imgs from "../../asset/tatiana-pavlova-Zc9y_Ijgebc-unsplash__1_-removebg-preview.png";
 import { BiChevronRight } from "react-icons/bi";
 import classes from "./HeroSection.module.css";
 const HeroSection = () => {
@@ -23,7 +23,7 @@ const HeroSection = () => {
                             <BiChevronRight className={classes.icon} />
                         </button>
                     </div>
-                    {/* <img src={imgs} className={classes.imgs} alt="" /> */}
+                    <img src={imgs} className={classes.imgs} alt="" />
                 </div>
             </Card>
             <div className={classes.policy}>

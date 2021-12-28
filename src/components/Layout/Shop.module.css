@@ -20,3 +20,51 @@
 .navLink + .navLink {
     margin-left: 1rem;
 }
+
+.cImg {
+    max-width: 100%;
+    /* width: 408px; */
+    height: 80vw;
+    object-fit: cover;
+}
+
+.shop {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 0.5rem;
+    gap: 1rem;
+}
+
+.shopItem {
+    background-color: crimson;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shopItemTitle {
+    margin-top: 0.6rem;
+    font-size: 1.1rem;
+    text-transform: capitalize;
+}
+.shopItemPrice {
+    margin-top: 0.1rem;
+}
+
+.shopBtn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.5rem 1.1rem;
+    margin-top: 1rem;
+    margin-bottom: 0.3rem;
+    border: none;
+    background: crimson;
+}
+.shopBtnLink {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    outline: none;
+}

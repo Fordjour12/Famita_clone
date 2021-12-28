@@ -9,7 +9,6 @@ const Header = () => {
     const handleClick = (id) => {
         setSelectedElement(id);
     };
-
     return (
         <header>
             <div className={classes.headerItems}>
