@@ -1,0 +1,86 @@
+.li,
+.navLink {
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+}
+
+.navLink + .navLink {
+    margin-left: 1rem;
+}
+
+.navigation {
+    margin: 1rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.4rem;
+}
+
+.footerContent {
+    display: block;
+    text-align: center;
+}
+
+.footerHead {
+    font-weight: 800;
+    margin-bottom: 0.3rem;
+}
+
+.footerCopy {
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.newsLetter {
+    text-align: center;
+    margin-top: 0.8rem;
+}
+
+.newsLetterInput,
+.newsLetterBtn {
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: none;
+}
+
+.newsLetterBtn {
+    background: #000;
+    color: crimson;
+    text-transform: uppercase;
+}
+
+.newsLetterHead {
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.newsLetterBody {
+    font-size: 0.8rem;
+    font-weight: 300;
+    margin: 0.5rem 0;
+}
+
+.seasons {
+    display: grid;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.seasonWear {
+    background: black;
+    color: #fff;
+    padding: 2rem 1rem;
+}
+
+.btnColor {
+    background: crimson;
+    color: #fff;
+    margin-top: 2.4rem;
+}
