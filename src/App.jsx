@@ -2,11 +2,9 @@ import React, { useState } from "react";
 import { Route, Routes } from "react-router-dom";
 import { navigationList } from "./data";
 import Header from "./components/Layout/Header";
+import Footer from "./components/Layout/Footer";
 
 const App = () => {
-    
-
-  
     return (
         <>
             <Header />
@@ -17,6 +15,7 @@ const App = () => {
                     return <Route key={index} path={url} element={component} />;
                 })}
             </Routes>
+            <Footer />
         </>
     );
 };

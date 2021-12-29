@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { BiHealth } from "react-icons/bi";
 import { Link } from "react-router-dom";
 import { shopLink } from "../../data";
 import classes from "./Shop.module.css";
@@ -110,10 +109,7 @@ const Shop = () => {
                 </div>
             </div>
             <button className={classes.shopBtn}>
-                <Link
-                    to="/shop"
-                    className={classes.shopBtnLink}
-                >
+                <Link to="/shop" className={classes.shopBtnLink}>
                     Shop
                 </Link>
             </button>

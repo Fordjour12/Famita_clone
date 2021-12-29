@@ -1,0 +1,42 @@
+.header {
+    font-size: 2.7rem;
+    font-weight: 800;
+    text-align: center;
+    color: crimson;
+    border-bottom: 3px solid #000;
+    margin-top: 2rem;
+}
+.listItems {
+    list-style: none;
+    margin: 1rem 0.5rem;
+    text-align: start;
+}
+.BlogContent {
+    margin-bottom: 1rem;
+}
+
+.BlogContentTitle {
+    color: crimson;
+    font-size: 2.3rem;
+    font-weight: 700;
+    margin-bottom: 0.4rem;
+}
+
+.BlogContentSubTitle {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+}
+
+.BlogContentDescription {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.ctaBtn{
+	padding:.6rem 1rem;
+	border:none;
+	color:#fff;
+	background:crimson;
+	border-radius:4px;
+}
